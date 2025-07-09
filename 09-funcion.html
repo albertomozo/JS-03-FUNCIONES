@@ -16,9 +16,9 @@
     
     <script>
         
-    function nomape(n,t){
+    function nomape(n,t,a){
         
-        document.getElementById("txt").innerHTML="Bienvenido "+n+" el mejor "+t;
+        document.getElementById("txt").innerHTML="Bienvenid@ "+n+" " + a +" mejor "+t;
         
     }
     
@@ -36,11 +36,11 @@
        
        <p id="txt"></p>
        
-       <a onclick="nomape('Pedro','Panadero')">Pepito</a> 
+       <a onmouseover="nomape('Pedro','Panadero','el')">Pedro</a> 
        
        <br>
        
-       <a onclick="nomape('Maria','xxx')">Maria</a>
+       <a onclick="nomape('Maria','Abogada','la')">Maria</a>
 
 
   
